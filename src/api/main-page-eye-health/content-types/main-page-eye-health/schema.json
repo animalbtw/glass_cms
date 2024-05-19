@@ -1,0 +1,37 @@
+{
+  "kind": "collectionType",
+  "collectionName": "main_page_eye_healths",
+  "info": {
+    "singularName": "main-page-eye-health",
+    "pluralName": "main-page-eye-healths",
+    "displayName": "main_page_eye_health"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "link_text": {
+      "type": "string"
+    },
+    "link": {
+      "type": "string"
+    },
+    "img": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}

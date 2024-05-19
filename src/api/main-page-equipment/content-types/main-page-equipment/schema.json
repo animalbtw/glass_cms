@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "main_page_equipments",
+  "info": {
+    "singularName": "main-page-equipment",
+    "pluralName": "main-page-equipments",
+    "displayName": "main_page_equipment"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "img": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "main_page_main_descriptions",
+  "info": {
+    "singularName": "main-page-main-description",
+    "pluralName": "main-page-main-descriptions",
+    "displayName": "main_page_main_description"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    }
+  }
+}

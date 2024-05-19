@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_test_city_shops",
+  "info": {
+    "displayName": "shop",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "address": {
+      "type": "string"
+    },
+    "map": {
+      "type": "text"
+    },
+    "employees": {
+      "type": "text"
+    },
+    "phone": {
+      "type": "string"
+    }
+  }
+}

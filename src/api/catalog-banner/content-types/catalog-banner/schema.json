@@ -1,0 +1,37 @@
+{
+  "kind": "collectionType",
+  "collectionName": "catalog_banners",
+  "info": {
+    "singularName": "catalog-banner",
+    "pluralName": "catalog-banners",
+    "displayName": "catalog_banner"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "btn_text": {
+      "type": "string"
+    },
+    "link": {
+      "type": "string"
+    },
+    "img": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}
